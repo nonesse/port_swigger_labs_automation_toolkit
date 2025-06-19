@@ -19,7 +19,7 @@ class BasePasswordCracker(ABC):
 
                 found_character = self.try_next_character()
                 if not found_character:
-                    print("No more characters found. Exiting..")
+                    print("No more characters found. Exiting...")
                     break
         except KeyboardInterrupt:
             print("\nProcess interrupted. Exiting...")
